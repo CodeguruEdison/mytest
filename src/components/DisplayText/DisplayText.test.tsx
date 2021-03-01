@@ -30,4 +30,8 @@ describe('Test Display Text',()=>{
 
 
     })
+    it('matches snapshot',()=>{
+        const {baseElement}= render(<DisplayText/>);
+        expect(baseElement).toMatchSnapshot();
+    })
 })

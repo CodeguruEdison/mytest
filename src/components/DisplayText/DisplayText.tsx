@@ -32,6 +32,7 @@ export const DisplayText = () => {
       <div>
         <label data-testid="final-msg">{msg}</label>
       </div>
+      <div> this is just test entry</div>
     </form>
   );
 };
